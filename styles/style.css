@@ -16,3 +16,20 @@
     margin: 10px;
 }
 
+.titolo {
+    margin: 20px 5px;
+    font-size: 25px;
+}
+
+.titolo > div {
+    color: grey;
+}
+
+#scritta_blu {
+    color: rgb(88, 199, 243);
+    font-weight: bold;
+}
+
+#data {
+    font-size: 17px;
+}
