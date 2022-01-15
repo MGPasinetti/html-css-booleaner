@@ -1,12 +1,7 @@
 body {
     margin: 0;
-  }
-
-/* main */
-main {
-    margin: 0 130px;
 }
-  
+
 /* header */
 header {
     background-color: #4EA0FF;
@@ -20,6 +15,68 @@ header > img {
     position: absolute;
     bottom: 10px;
     left: 5px;
+}
+
+/* main */
+main {
+    margin: 0 130px;
+}
+
+/* titolo */
+.parte_titolo {
+    margin: 20px 7px;
+}
+  
+.parte_titolo > h1 {
+    font-size: 50px;
+    margin: 0;
+}
+  
+.parte_titolo > div {
+    color: grey;
+    line-height: 20px;
+}
+
+.text_medium {
+    font-size: 22px;
+}
+  
+.text_medium > span {
+    color: rgb(88, 199, 243);
+}
+  
+.text_small {
+    font-size: 13px;
+}
+
+/* foto + didascalie */
+.didascalie {
+    font-size: 10px;
+}
+
+/* lista ul */
+ul {
+    padding: 20px;
+}
+  
+/* tabella */
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+.colonna_3 {
+    width: 50%;
+}
+  
+thead > tr {
+    background-color: #20a9e5;
+    color: white;
+    font-weight: bold;
+}
+  
+.alternata {
+    background-color: #B1E5F2;
 }
 
 /* footer */
