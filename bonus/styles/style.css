@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+  }
+  
+  /* header */
+  header {
+    background-color: #4EA0FF;
+    height: 150px;
+    background-image: url(../img/pattern.png);
+    position: relative;
+  }
+  
+  header > img {
+    height: 35%;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+  }
+  
+  /* main */
+  main {
+    margin: 10px 7px;
+  }
+  
+  /* titolo */
+  .parte_titolo {
+    margin: 20px 7px;
+  }
+  
+  .parte_titolo > h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  .parte_titolo > div {
+    color: grey;
+    line-height: 20px;
+  }
+  
+  .text_medium {
+    font-size: 22px;
+  }
+  
+  .text_medium > span {
+    color: rgb(88, 199, 243);
+  }
+  
+  .text_small {
+    font-size: 13px;
+  }
+  
+  /* foto + didascalie */
+  .didascalie {
+    font-size: 10px;
+  }
+  
+  /* paragrafo 1 */
+  
+  /* lista ul */
+  ul {
+    padding: 15px;
+  }
+  
+  /* tabella */
+  table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .colonna_3 {
+    width: 50%;
+  }
+  
+  thead > tr {
+    background-color: #20a9e5;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .alternata {
+    background-color: #B1E5F2;
+  }
+  
+  /* paragrafo 2 */
+  
+  /* footer */
+  footer {
+    margin: 30px 7px;
+  }
+  
+  #titolo_footer {
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+  
+  .img_footer {
+    width: 250px;
+    height: 160px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  
+  .img_footer > img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  img > span {
+    color: white;
+    top: 5px;
+  }
+  
+  .lorem {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  
